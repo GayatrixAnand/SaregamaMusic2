@@ -36,21 +36,21 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/saregamamusic/SaregamaMusic2",
+    "https://github.com/GayatrixAnand/SaregamaMusic2",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Music_World_Update")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+gdo528FUAq84NTM1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THEDORESONA")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+L1-l-0w-MVdiYjU1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-RessoMusic-08-14")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/vTelegraphBot-04-30-13")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4e4449251cf24214e3756-9ddd9b60fb0c9cafae.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/7gsz5e.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/4e4449251cf24214e3756-9ddd9b60fb0c9cafae.jpg"
